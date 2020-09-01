@@ -11,7 +11,7 @@ import (
 	"github.com/jaeles-project/jaeles/database"
 	"github.com/jaeles-project/jaeles/libs"
 	"github.com/jaeles-project/jaeles/utils"
-	"github.com/jinzhu/gorm"
+	"github.com/go-gorm/gorm"
 	"github.com/spf13/cobra"
 	"github.com/thoas/go-funk"
 )
