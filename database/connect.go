@@ -2,10 +2,10 @@ package database
 
 import (
 	"github.com/jaeles-project/jaeles/database/models"
-	"github.com/jinzhu/gorm"
+	"github.com/go-gorm/gorm"
 
 	// load driver
-	_ "github.com/jinzhu/gorm/dialects/sqlite"
+	_ "github.com/go-gorm/sqlite"
 )
 
 // DB global DB variable
